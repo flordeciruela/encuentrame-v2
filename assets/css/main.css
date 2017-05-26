@@ -1,0 +1,62 @@
+
+div#map {
+	width: 100%;
+	height: 87vh;
+	background-color: grey;
+	position: relative;
+}
+
+.none {
+	display: none;
+}
+
+nav {
+	background-color: #FCB425 !important;
+}
+
+input {
+	background-color: #FCB425 !important;
+	border: 1px solid #fff !important;
+	color: #fff !important;
+}
+
+button {
+	color: black !important;
+	padding: auto 40px !important;
+}
+
+i {
+	color: #fff;
+	margin-right: 15px;
+}
+
+.margin-50 {
+	margin: auto 50px;
+}
+
+.separador {
+	border-left: 2px solid #fff;
+	display: inline-block;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+	color: #fff;
+}
+
+#tarifa {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+	color: #FCB425;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	z-index: 2000;
+}
+
+.none {
+	display: none !important;
+}
